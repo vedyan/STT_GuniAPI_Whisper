@@ -1,9 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import os
-import threading
 from dotenv import load_dotenv
 import whisper
-import logging
 
 app = Flask(__name__)
 
