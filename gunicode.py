@@ -52,4 +52,4 @@ def transcribe_audio():
 if __name__ == '__main__':
   # Use Gunicorn command instead of app.run
   # Replace 'appcode' with your actual filename
-  os.system(f"gunicorn appcode:app --bind 0.0.0.0:{port}")
+  os.system(f"gunicorn gunicode:app --bind 0.0.0.0:{port}")
